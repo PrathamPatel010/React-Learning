@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function Greetings(){
+    return (
+        <h1>My First Component</h1>
+    )
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function Greeting(){
+    return(
+        <div>
+            <h3>Hello People
+                <ul>
+                    <li>
+                        <a href="#">Click me</a>
+                    </li>
+                </ul>
+            </h3>
+        </div>
+    )
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<Greetings/>)
+root.render(<Greeting/>)
+export default Greetings;
