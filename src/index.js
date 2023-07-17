@@ -1,27 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import {NestCompo,Second} from './NestCompo';
-import Testing from './Testing';
+import React from "react";
+import ReactDOM  from "react-dom";
 
-function Greeting(){
-    return(
-        // short-hand for wrapping adjacent elements
-        <>
-        <div className="most-outer-div text-center mt-5">
-            <h3>Hello People<br />
-                <a href="/">Click me</a>    
-            </h3>
+
+// JSX rules:
+// return single element
+// div/section/image/article or Fragment
+// use camelCase for html attributes
+// className instead of class
+// close every element
+// formatting
+
+function Greetings(){
+    return (
+        <div className="text-center my-5">
+        <h1>Hello People!</h1>
+        <h2>I am learning react from freecodecamp</h2>
         </div>
-        <div className="text-center">
-            <h3>New Component</h3>
-        </div>
-        <Testing/>
-        <NestCompo/>
-        <Second/>
-        </>
     )
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<Greeting/>)
-export default Greeting;
+
+// NOTE:This is for reference purpose, but we won't be using it.
+// const Greeting = () => {
+//     return React.createElement('h1',{},'Hello!');
+// }
+
+ReactDOM.render(<Greetings/>,document.getElementById('root'))
+
