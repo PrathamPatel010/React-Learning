@@ -11,8 +11,9 @@ body {
 }
 
 .game {
+    height: max-content;
     background: #fff;
     border-radius: 1rem;
     padding: 1rem 2rem;
-    margin: 2rem;
+    margin-top: 2rem
 }
