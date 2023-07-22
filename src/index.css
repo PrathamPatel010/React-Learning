@@ -18,6 +18,8 @@ body {
 }
 
 .gamelink {
+    width: fit-content;
+    height: fit-content;
     text-decoration: none;
     color: black;
 }

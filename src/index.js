@@ -1,6 +1,7 @@
-import ReactDOM  from "react-dom";
-import GameList from "./JSFocusedgamelist";
+import ReactDOM from "react-dom";
 // import GameList1 from "./CSSFocusedgamelist";
+// import GameList from "./JSFocusedgamelist";
+import GameList from "./ObjectFocusedGamelist";
 
 // CSS 
 import './index.css'
@@ -32,4 +33,4 @@ import './index.css'
 //     return React.createElement('h1',{},'Hello!');
 // }
 
-ReactDOM.render(<GameList/>,document.getElementById('root'))
+ReactDOM.render( < GameList / > , document.getElementById('root'))

@@ -1,7 +1,7 @@
 function GameList(){
     return (
         <div className="container">
-        <section className="text-center"><h1 className="mb-5">This will be a game list</h1></section>
+        <section className="text-center"><h1 className="my-5">This will be a game list</h1></section>
         <div className="row">
             <div className="col-md-4">
                 <Game url="https://m.media-amazon.com/images/I/413k8MW+jPL._SY445_SX342_.jpg" name="Spiderman Remastered" link="/" ratings={`ratings: ${99/10}/10`}>
