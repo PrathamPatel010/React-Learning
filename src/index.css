@@ -11,9 +11,19 @@ body {
 }
 
 .game {
-    height: max-content;
     background: #fff;
     border-radius: 1rem;
     padding: 1rem 2rem;
     margin-top: 2rem
+}
+
+.gamelink {
+    width: fit-content;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+}
+
+.gamelink:hover {
+    color: dimgrey;
 }
