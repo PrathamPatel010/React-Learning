@@ -1,3 +1,14 @@
 body {
     background-color: cadetblue;
 }
+
+.git-profile {
+    background-color: whitesmoke;
+    border: 0.1rem solid black;
+    border-radius: 2rem;
+}
+
+.profile-photo {
+    margin-bottom: 0.5rem;
+    border-radius: 1rem;
+}
