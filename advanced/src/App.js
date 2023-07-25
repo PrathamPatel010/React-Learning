@@ -1,4 +1,5 @@
 import './App.css';
+import { React } from 'react';
 // import ErrorExample from './tutorial/01-useState/errorExample';
 // import UseStateBasics from './tutorial/01-useState/useStateBasics';
 // import UseStateArray from './tutorial/01-useState/useStateArray';
@@ -9,11 +10,13 @@ import './App.css';
 // import UseEffectFetchData from './tutorial/02-useEffects/useEffectFetchData';
 // import MultipleReturns from './tutorial/03-conditional-rendering/MultipleReturns';
 // import ShortCircuit from './tutorial/03-conditional-rendering/short-circuit';
-import ShowHide from './tutorial/03-conditional-rendering/ShowHide';
+// import ShowHide from './tutorial/03-conditional-rendering/ShowHide';
+import ControlledInputs from './tutorial/04-forms/ControlledInputs';
+
 function App() {
   return (
     <div className="App">
-      <ShowHide/> 
+        <ControlledInputs/> 
     </div>
   );
 }

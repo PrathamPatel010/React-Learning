@@ -12,3 +12,16 @@ body {
     margin-bottom: 0.5rem;
     border-radius: 1rem;
 }
+
+.article-form {
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+    height: max-content;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
