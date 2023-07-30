@@ -13,11 +13,12 @@ import { React } from 'react';
 // import ShowHide from './tutorial/03-conditional-rendering/ShowHide';
 // import ControlledInputs from './tutorial/04-forms/ControlledInputs';
 // import MultipleInputs from './tutorial/04-forms/MultipleInputs';
-import UseRefBasics from './tutorial/05-useRef/useRefBasics';
+// import UseRefBasics from './tutorial/05-useRef/useRefBasics';
+import Index from './tutorial/06-useReducer';
 function App() {
   return (
     <div className="App">
-        <UseRefBasics/> 
+        <Index/> 
     </div>
   );
 }
