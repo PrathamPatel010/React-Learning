@@ -17,11 +17,12 @@ import { React } from 'react';
 // import Index from './tutorial/06-useReducer';
 // import PropsDrilling from './tutorial/07-propDrilling/prop-drilling';
 // import ContextAPI from './tutorial/08-contextAPI/contextAPI';
-import FetchExample from './tutorial/09-customHooks/fetchExample';
+// import FetchExample from './tutorial/09-customHooks/fetchExample';
+import Index from './tutorial/10-props-types';
 function App() {
   return (
     <div className="App">
-      <FetchExample/>
+      <Index/>
     </div>
   );
 }

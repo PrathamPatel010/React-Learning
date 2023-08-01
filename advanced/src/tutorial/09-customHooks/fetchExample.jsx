@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { UseFetch } from './useFetch';
 const FetchExample = () => {
     const url = "https://course-api.com/javascript-store-products";
