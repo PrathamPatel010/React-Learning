@@ -16,11 +16,12 @@ import { React } from 'react';
 // import UseRefBasics from './tutorial/05-useRef/useRefBasics';
 // import Index from './tutorial/06-useReducer';
 // import PropsDrilling from './tutorial/07-propDrilling/prop-drilling';
-import ContextAPI from './tutorial/08-contextAPI/contextAPI';
+// import ContextAPI from './tutorial/08-contextAPI/contextAPI';
+import FetchExample from './tutorial/09-customHooks/fetchExample';
 function App() {
   return (
     <div className="App">
-        <ContextAPI/> 
+      <FetchExample/>
     </div>
   );
 }
